@@ -1,0 +1,39 @@
+{
+  "name": "MetaVision AI Agent",
+  "description": "AI-powered creative studio for 3D modeling, music, video, and image generation. Features G-Code Intelligence Engine for CNC, Sketchfab library integration, and prompt generation tools.",
+  "url": "https://metavision.click",
+  "iconUrl": "https://metavision.click/favicon.ico",
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"],
+  "skills": [
+    {
+      "id": "3d-modeling",
+      "name": "3D Modeling",
+      "description": "Generate and convert 3D models, STL files, G-Code for CNC machines"
+    },
+    {
+      "id": "ai-studio",
+      "name": "AI Studio",
+      "description": "Generate images, music, and video using AI"
+    },
+    {
+      "id": "prompt-generator",
+      "name": "Prompt Generator",
+      "description": "Generate optimized prompts for AI tools"
+    },
+    {
+      "id": "cnc-intelligence",
+      "name": "CNC G-Code Intelligence",
+      "description": "Analyze and generate G-Code for CNC machines"
+    }
+  ],
+  "provider": {
+    "organization": "MetaVision",
+    "url": "https://metavision.click"
+  }
+}
